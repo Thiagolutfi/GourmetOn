@@ -21,14 +21,7 @@ Abra o endereço mostrado no terminal. Para gerar a versão de publicação:
 npm run build
 ```
 
-## Configurar a API
-
-1. Obtenha sua chave em https://spoonacular.com/food-api.
-2. Copie `.env.example` para `.env`, na raiz do projeto.
-3. Preencha `VITE_SPOONACULAR_API_KEY=sua_chave`.
-4. Reinicie o servidor com `npm run dev`.
-
-A página busca cinco receitas no endpoint `/recipes/random?number=5`. Sem uma chave válida, os pratos não carregam. O `.env` não deve ser enviado ao Git. Em um projeto Vite frontend, a chave fica visível no navegador.
+A página busca cinco receitas no endpoint `/recipes/random?number=5`. Sem uma chave válida, os pratos não carregam.
 
 ## Entendendo o código
 
@@ -42,13 +35,16 @@ O formulário apenas mostra uma mensagem, sem salvar ou enviar o e-mail. O downl
 
 ## Integrantes
 
-- Nome: ____________________ | RM: ____________________
-- Nome: ____________________ | RM: ____________________
-- Nome: ____________________ | RM: ____________________
+- Nome:Thiago Henrique Lutfi Silva | RM: 573531
+- Nome: Arthur Kazuo | RM: 572043
+- Nome: Bruno Barbuto Muzzi | RM: 573232
+- Nome: Daniel Lopes de Oliveira | RM: 573415
+- Nome: João Felipe Mello | RM: 573001
+
 
 ## Deploy
 
-Link: ____________________
+Link: https://gourmeton-two.vercel.app/
 
 Na Vercel: selecione Vite, use `npm run build` e a pasta `dist`. Configure `VITE_SPOONACULAR_API_KEY` antes de publicar.
 
